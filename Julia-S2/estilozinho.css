@@ -1,0 +1,71 @@
+body {
+    background: url(pag_01_fundo.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: fantasy;
+}
+p {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.imagens {
+    display: flex;
+    margin-bottom :700px ;
+}
+.imagens img {
+    width: 80%;
+    border-radius: 100%;
+    transition: 0.2s all;
+    margin-top: 200px;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+}
+
+.joaquina img {
+    width: 40%;
+    border-radius: 10%;
+    margin-bottom: 20% ;
+}
+
+li {
+    display: flex;
+}
+
+.joaquina h1 {
+    margin-left: 67%;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 0;
+}
+
+.botao p {
+    text-decoration: none;
+}
+
+.botao img {
+    width: 60px;
+    transition: 0.09;
+}
+
+.botao img:hover {
+transform: scale(1.05);
+}
+
+.gameover{
+    background-color: rgb(23, 87, 124);
+    text-align: center;
+}
+.gameover img {
+    width: 150px;
+    border-radius: 100%;
+}
+
